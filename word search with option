@@ -1,0 +1,11 @@
+import re
+
+word = re.compile(r"(pre)?school")
+
+string = word.search("That is a high school.")
+
+print(string.group())
+
+string1 = word.search("That suburb has a preschool and a primary school.")
+
+print(string1.group())

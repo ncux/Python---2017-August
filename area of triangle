@@ -1,0 +1,5 @@
+def areaOfTri(b, h):
+    area = 1/2 * b * h
+    print(area)
+
+areaOfTri(2, 4)

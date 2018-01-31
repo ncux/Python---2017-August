@@ -1,0 +1,5 @@
+def areaOfTri(b, h):
+    return 1/2 * b * h
+
+
+areaOfTri(2, 4)

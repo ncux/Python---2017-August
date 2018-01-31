@@ -1,0 +1,5 @@
+def heightConvert(f = 0, i = 0):
+    f_to_cm = f * 12 * 2.54
+    i_to_cm = i * 2.54
+    heightIncm = f_to_cm + i_to_cm
+    return heightIncm

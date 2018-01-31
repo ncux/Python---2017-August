@@ -1,0 +1,13 @@
+a = int(input("Enter length"))
+b = int(input("Enter length"))
+c = int(input("Enter length"))
+
+if a == b and b == c:
+	print("It's an equilateral triangle.")
+elif:
+	a != b and b != c and a != c:
+	print("It's a scalene triangle.")
+else:
+	print("It's an isosceles triangle.")
+	
+	
